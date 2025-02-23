@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .border {
+        border: 1px solid black;
+      }
+
+      .vernav {
+        width: 200px;
+        border: 1px solid black;
+      }
+      .nav-bar {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .nav-bar li {
+        padding: 10px;
+        text-align: left;
+        background-color: lightblue;
+      }
+      .nav-bar .home {
+        background-color: orange;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+      }
+
+      .nav-bar li a {
+        text-decoration: none;
+        color: blue;
+        font-size: 18px;
+      }
+      .n {
+        margin-top: 5px;
+        margin-right: 6px;
+        margin-left: 6px;
+      }
+      .hornav {
+        width: fit-content;
+        border: 1px solid black;
+        margin: auto;
+        padding: 5px;
+      }
+      .hnav-bar {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background-color: lightgray;
+      }
+      .hnav-bar li {
+        padding: 10px 20px;
+        text-align: center;
+        border-right: 1px solid blue;
+      }
+      .hnav-bar li:last-child {
+        border-right: none;
+      }
+      .hnav-bar .home {
+        background-color: grey;
+        font-weight: bold;
+        color: white;
+      }
+      .hnav-bar li a {
+        text-decoration: none;
+        color: blue;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="vertical">
+        <h4>Vertical Navigation Bar</h4>
+
+        <div class="vernav">
+          <div class="n">
+            <ul class="nav-bar">
+              <li class="home v">Home</li>
+              <li><a href="">Java</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">HTML</a></li>
+              <li><a href="">Bootstrap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="horizontal">
+        <h4>Horizontal Navigation Bar</h4>
+        <div class="hornav">
+          <div class="h">
+            <ul class="hnav-bar">
+              <li class="home">Home</li>
+              <li><a href="">Java</a></li>
+              <li><a href="">HTML</a></li>
+              <li><a href="">Css</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
