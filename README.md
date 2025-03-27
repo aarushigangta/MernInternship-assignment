@@ -1,1 +1,1 @@
-# MernInternship-assignment-01
+# MernInternship-assignment
